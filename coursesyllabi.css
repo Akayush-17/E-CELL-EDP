@@ -1,0 +1,157 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F6F7EB;
+    display: flex;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    position: relative;
+}
+.whole{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.line{
+position: absolute;
+width: 950.1px;
+height: 0px;
+border: 1px solid rgba(25, 25, 35, 0.3);
+transform: rotate(90deg);
+left: -400px;
+margin-top: 630px;
+
+}
+.linetxt{
+    position: absolute;
+width: 168.7px;
+height: 17px;
+left: -10px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+margin-top: 50px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.165em;
+
+color: rgba(25, 25, 35, 0.3);
+
+transform: rotate(-90deg);
+}
+.parent{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+}
+.head{
+    height: 100px;
+    width: 500px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-family: sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 60px;
+display: flex;
+align-items: center;
+
+}
+.modules{
+    height: 850px;
+    width: 1300px;
+    /* background-color: aqua; */
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    padding-top: 15px;
+}
+h4{
+    margin-bottom: -13px;
+}
+.txt{
+    margin-top: 30px;
+    color: white;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 12px;
+}
+.one{
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+}
+.circle{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    text-align: center;
+   padding: 10px 10px 10px 10px;
+
+}
+.syllabi{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 140px ;
+    width: 1000px;
+    font-family: sans-serif;
+    position: absolute;
+width: 969px;
+height: 0px;
+left: 400px;
+
+border: 1px solid rgba(92, 65, 93, 0.2);
+
+}
+.module{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 140px ;
+    width: 1000px;
+    gap: 20px;
+    padding-left: 30px;
+    margin-top: 15px;
+    gap: 100px;
+    
+
+    
+}
+.btn{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color:  red;
+    width: 179px;
+    height: 80px;
+    font-family: sans-serif;
+    border-color: red;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+align-items: center;
+text-align: center;
+padding-top: 7px;
+border-radius: 10px;
+color: #F2F2F2;
+
+}
